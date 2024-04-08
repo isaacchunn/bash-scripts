@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+# Author: Isaac Chun
+# Date Created: 4/8/2024
+# Last Modified: 4/8/2024
+# Description: Arithmetic Scripts in Bash
+
+# Usage
+# arithmetic_script
+
+x=4
+y=2
+echo $(( $x + $y ))

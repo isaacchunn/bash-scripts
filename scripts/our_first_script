@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+# Author: Isaac Chun
+# Date Created: 4/8/2024
+# Last Modified: 4/8/2024
+
+# Description
+# Prints text to the screen
+
+# Usage
+# our_first_script
+
+echo "This is my first script"
+exit 0

@@ -1,0 +1,29 @@
+#!/usr/bin/bash
+
+# Author: Isaac Chun
+# Date Created: 4/8/2024
+# Last Modified: 4/8/2024
+
+# Description
+# Saves all files in home directory to a .tar archive
+
+# Usage
+# backup_script
+
+#Print and greet the user
+echo "Hello, ${USER^}"
+echo "I will now back up your home directory, $HOME"
+
+#Set homepath into variable
+currentdir=$(pwd)
+
+#Inform user running script from a certain directory
+echo "You are running this script from $currentdir"
+echo "Therefore, I will save the backup in $currentdir"scripts_08-04-2024_23-29-58.tar
+
+tar -cf ${currentdir}/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
+
+#Inform successful backup
+echo "Backup Completed Successfully."
+
+exit 0

@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+# Author: Isaac Chun
+# Date Created: 4/8/2024
+# Last Modified: 4/8/2024
+# Description: Testing command substitution
+
+#Usage
+
+time=$(date +%H:%m:%S)
+echo "Hello $USER, the time right now is $time"
+
