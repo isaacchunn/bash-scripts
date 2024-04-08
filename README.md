@@ -8,7 +8,7 @@ Some bash scripts written to learn Bash, and future custom Bash scripts for my s
 ├── README 				      # 
 ```
 ## ⭐ Terminal
-[terminal1](https://github.com/isaacchunn/bash-scripts/blob/main/screenshots/terminal.jpg)
+![terminal1](https://github.com/isaacchunn/bash-scripts/blob/main/screenshots/terminal.jpg)
 ![terminal2](https://github.com/isaacchunn/bash-scripts/blob/main/screenshots/terminal2.png)
 
 ## 📙 References
