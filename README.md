@@ -2,10 +2,10 @@
 Some bash scripts written to learn Bash, and future custom Bash scripts for my script automation capabilities.
 ## 📁 Folder Structure
 ```
-├── scripts             # Bash scripts folder TODO: sort folders
 ├── screenshots         # Show my lovely terminal
-├── LICENSE 			      #
-├── README 				      # 
+├── scripts             # Bash scripts folder TODO: sort folders
+├── LICENSE 			      
+├── README 				      
 ```
 ## ⭐ Terminal
 ![terminal1](https://github.com/isaacchunn/bash-scripts/blob/main/screenshots/terminal.jpg)
