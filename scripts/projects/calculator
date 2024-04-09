@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+# Serve as a calculator to do some simple stuff
+
+op=$1
+
+#Use syntax ${parameter:-word} to fill it with a default value
+
+#Hard coded 10 operator based on first argument
+echo $((${2:-0} $op ${3:-0} $op ${4:-0} $op ${5:-0} $op ${6:-0} $op ${7:-0} $op ${8:-0} $op ${9:-0} $op ${10:-0}))
