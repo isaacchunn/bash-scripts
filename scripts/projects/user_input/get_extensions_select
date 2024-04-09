@@ -1,0 +1,29 @@
+#!/usr/bin/bash
+
+#Ask for some pieces of information
+read -p "What is your first name?: " name
+read -p "What is your surname/family name?: " surname
+
+#Ask user if headset or handheld
+PS3="What is the type of phone?:"
+select type in headset handheld;
+do
+echo "The type of the phone is $type"
+break
+done
+
+read -N 4 -p "What is your extension number?: " extension
+echo
+read -N 4 -s -p "What access code would you like to use when dialing in?: " access
+echo
+
+#At the end, ask the user for the department
+PS3="What is your department?"
+select dept in finance sales "customer service" engineering;
+do
+echo "Your department is $dept"
+break
+done
+
+#Print out all the information we have gotten first and save into extensions.csv
+echo $name,$surname,$extension,$access,$type,$dept >> extensions.csv

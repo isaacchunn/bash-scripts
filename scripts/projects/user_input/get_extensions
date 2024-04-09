@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+#Ask for some pieces of information
+read -p "What is your first name?: " name
+read -p "What is your surname/family name?: " surname
+read -N 4 -p "What is your extension number?: " extension
+echo
+read -N 4 -s -p "What access code would you like to use when dialing in?: " access
+echo
+
+#Print out all the information we have gotten first and save into extensions.csv
+echo $name,$surname,$extension,$access >> extensions.csv
