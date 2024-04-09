@@ -1,0 +1,11 @@
+HTTP/1.1 301 Moved Permanently
+perf: 7469935968
+location: https://www.twitter.com/
+cache-control: no-cache, no-store, max-age=0
+content-length: 0
+x-transaction-id: 2318f1ad4b8ee94d
+x-response-time: 98
+x-connection-hash: 6c53ca087ad619aec77981d24b4392ab1e469e9bba96beb9ac32d4184ac1f6f2
+date: Tue, 09 Apr 2024 15:29:59 GMT
+server: tsa_q
+
